@@ -1,0 +1,14 @@
+xx=argument0;
+yy=argument1;
+start_x=x;
+start_y=y;
+swiped=true;
+moving=false;
+target_block = instance_position(xx,yy,o_block);
+target_block.xx=x;
+target_block.yy=y;
+target_block.start_x=target_block.x;
+target_block.start_y=target_block.y;
+target_block.still=false;
+target_block.swiped=true;
+target_block.target_block=id;
